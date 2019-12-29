@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 121.237 sec <<< FAILURE! - in TestSuite
+loginDDT(com.inetbanking.TestCases.TC_loginDDT_002)  Time elapsed: 5.609 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.inetbanking.TestCases.TC_loginDDT_002.loginDDT(TC_loginDDT_002.java:27)
+
+loginDDT(com.inetbanking.TestCases.TC_loginDDT_002)  Time elapsed: 5.849 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.inetbanking.TestCases.TC_loginDDT_002.loginDDT(TC_loginDDT_002.java:27)
+
+loginDDT(com.inetbanking.TestCases.TC_loginDDT_002)  Time elapsed: 6.554 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.inetbanking.TestCases.TC_loginDDT_002.loginDDT(TC_loginDDT_002.java:27)
+
